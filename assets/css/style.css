@@ -61,10 +61,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* moved image from css to html in order to comply with best practices */
 /* hero styles end */
 
 /* content section styles start */
-#content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -81,30 +82,8 @@ p {
 }
 
 
-/* consolidate content info with same id for all three div elements */
-#content-info {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* consolidate img with same id for all three images in the content */
-#content-img {
-    max-height: 200px;
-}
-
-
-/* consolidate h2 elements with same class for all three titles in content */
-.content-title {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* benefits styles start */
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -114,6 +93,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     text-align: center;
+    position: relative;
 }
 
 /* consolidate benefit-x into one class for all three sections */
@@ -136,6 +116,28 @@ p {
     max-width: 150px;
 }
 /* benefits styles end */
+
+/* consolidate content info with same id for all three div elements */
+#content-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidate img with same id for all three images in the content */
+#content-img {
+    max-height: 200px;
+}
+
+
+/* consolidate h2 elements with same class for all three titles in content */
+.content-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 /* content styles end */
 
