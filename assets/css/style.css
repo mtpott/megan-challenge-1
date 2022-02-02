@@ -120,6 +120,7 @@ p {
 .benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: left;
 }
 
 /*consolidate benefit-x into one class for all three h3 elements */
