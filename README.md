@@ -8,3 +8,7 @@ For instance, I replaced multiple div elements with nav, or header, or section. 
 ## Technologies
 In this project, I used both HTML and CSS. 
 
+## Links
+Link to the project website: https://mtpott.github.io/megan-challenge-1/
+
+Link to my GitHub project repository: https://github.com/mtpott/megan-challenge-1
