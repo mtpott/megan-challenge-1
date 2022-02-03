@@ -12,3 +12,7 @@ In this project, I used both HTML and CSS.
 Link to the project website: https://mtpott.github.io/megan-challenge-1/
 
 Link to my GitHub project repository: https://github.com/mtpott/megan-challenge-1
+
+## Screenshot
+
+A screenshot of my final project: ![project-final-image](./assets/images/project-final-image.png)
