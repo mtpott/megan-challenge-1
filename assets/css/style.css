@@ -74,11 +74,13 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
-.float-right {
+#float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 
@@ -118,7 +120,7 @@ p {
 /* benefits styles end */
 
 /* consolidate content info with same id for all three div elements */
-#content-info {
+.content-info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -127,10 +129,7 @@ p {
     color: #ffffff;
 }
 
-/* consolidate img with same id for all three images in the content */
-#content-img {
-    max-height: 200px;
-}
+/* consolidate three img tags into .float-left and #float-right and deleted the three values */
 
 
 /* consolidate h2 elements with same class for all three titles in content */
